@@ -1,0 +1,412 @@
+body{
+    background:  rgb(214, 243, 243);
+  }
+  ul  {
+    list-style-type: none;
+    float: right;
+    padding-right: 90px;    
+ }
+ a{
+   text-decoration: none;
+   padding: 22px;
+   font-size: medium;
+   color: rgb(41, 11, 58);
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+   }
+
+ .logo{
+  padding-left: 12%;
+  font-size: 30px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(10, 5, 5);
+
+}
+ .container{
+margin-top:2%;
+ 
+}
+  
+.text{
+ margin-left: 8%;
+ margin-top: 10%;
+ color: rgb(219, 145, 6);
+
+}
+.text2{
+  margin-left: 7%;
+ font-size: 25px;
+}
+
+.text3{
+  margin-left: 8%;
+
+}
+
+.image{
+  border: solid 70px;
+  color: rgb(197, 223, 221);
+  padding-left: 1%;
+  margin-top: -35%;
+  border-radius: 150%;
+  width: 34%;
+  margin-left: 45%;
+
+}
+.image img{
+  width: 400px;
+  height: 400px;
+}
+.fa-play{
+  display: inline-block;
+  background-color: white;
+  color: blue;
+  padding: 15px;
+  border-radius: 30px;
+  margin-left: 25%;
+  margin-top: -5%;
+
+}
+h2{
+  background-color: rgb(82, 145, 161);
+  color: aliceblue;
+  border: none;
+  width: 14%;
+  height: 40px;
+  text-align: center;
+  margin-left: 8%;
+  border-radius: 8px;
+  padding-top: 1%;
+}
+
+.container2{
+  background: rgb(224, 238, 237);
+} 
+
+.do{
+  display: flex;
+  padding-left: 10%;
+  font-size: 30px;
+
+
+
+}
+.do h1 p{
+  font-size: 20px;
+  padding-top: -10%;
+  padding-left: 6%;
+  
+  
+}
+
+ .services{
+  display:flex;
+  border-radius: 12px;
+  font-size:15px ;
+  padding-right: 5%;
+  padding-left: -20%;
+ }
+ .Rad{
+  padding-left: 3%;
+  border-radius: 20px;
+  background-color: aliceblue;
+  width: 25%;
+  margin-left:8% ;
+ }
+ .Amb{
+ padding-left: 10%;
+ border-radius: 20px;
+ padding-left: 3%;
+ background-color: aliceblue;
+ width: 25%;
+ margin-left:8% ;
+ 
+ }
+ .Den{
+  padding-left: 1%;
+  border-radius: 20px;
+  background-color: aliceblue;
+  width: 23%;
+  margin-left:8% ;
+   
+
+
+ }
+.services2{
+  display:flex;
+  font-size:15px ;
+  padding-right: 1%;
+  margin-top: 9%;
+  padding-left: -45%;
+}
+
+.Surg{
+  padding-left: 2%;
+  border-radius: 20px;
+  background-color: aliceblue;
+  width: 25%;
+  margin-left:8% ;
+}
+.Part{
+  padding-left: 2%;
+  border-radius: 20px;
+  background-color: aliceblue;
+  width: 23%;
+  margin-left:7% ;
+
+}
+.Pet{
+  padding-left:3%;
+  border-radius: 20px;
+  background-color:aliceblue;
+  width: 20%;
+  margin-left:8% ;
+  
+}
+.container3{
+  background: rgb(214, 243, 243);
+  
+} 
+
+.Be{
+  display: flex;
+  font-size: 25px;
+  margin-top: 7%;
+  padding-bottom: 8%;
+  margin-left:45% ;
+}
+.Best p{
+font-size: 20px;
+
+
+}
+
+ .image2{
+   margin-right: 25%;
+   background: rgb(178, 200, 209);
+   width: 33%;
+  margin-top: -26%;
+  border-radius: 12px;
+   
+ 
+} 
+.button2 h2{
+  margin-left: 45%;
+  margin-top: -8%;
+  } 
+  .fa.fa-desktop{
+    color: rgb(123, 250, 250);
+    font-size: 22px;
+  }
+  .fa.fa-times{
+    color: rgb(123, 250, 250);
+    font-size: 22px;
+  }
+   .fa.fa-plus-circle{
+    color: rgb(123, 250, 250);
+    font-size: 22px;
+  
+  } 
+  .fa-hospital-o{
+    color: rgb(123, 250, 250);
+    font-size: 22px;
+  }
+  .fa.fa-paw{
+    color: rgb(123, 250, 250);
+    font-size: 20px;
+  
+  
+  }
+  .fa.fa-medkit{
+    color: rgb(184, 250, 250);
+    font-size: 22px;
+  }
+  
+  .container4{
+    background-color: rgb(242, 250, 250);
+  }
+  .say{
+    display: flex;
+    padding-left: 10%;
+    font-size: 33px;
+    padding-top:8%;
+    color: rgb(12, 9, 15);
+  }
+  .say p{
+    font-size: 20px;
+    padding-top:5%;
+    padding-left: 12%;
+    color: rgb(147, 141, 153);
+     
+   }
+   
+   .Int{
+     padding:4% 2% 3% 3%;
+     font-size: 20px;
+     border-radius: 8px;
+     background-color: rgb(253, 253, 253);
+     width: 35%;
+     color:rgb(147, 141, 153) ;
+     margin-left:10%;
+     margin-top: 2%;
+   }
+   .Both{
+     padding: 4% 2% 7% 3%;
+     font-size: 20px;
+     border-radius: 8px;
+     background-color: rgb(253, 253, 253);
+     width: 35%;
+     color: rgb(147, 141, 153);
+     margin-left:55%;
+     margin-top: -37%;
+     
+   } 
+   
+
+.Docts{
+  background-color:aliceblue;
+}
+.High{
+  height: 400px;
+  display: flex;
+  
+
+  }
+  .doc1{
+    background-color: rgb(245, 241, 245);
+    padding-right:5%;
+    height: 80%;
+    width: 20%;
+    border-radius: 5%;
+    margin-left: 5%;
+  }
+  
+  .doc2{
+    padding-left: 6%;
+    margin-left: 3%;
+    background-color:  rgb(216, 228, 238);
+    margin-right: 30px;
+    border-radius: 5%;
+    width: 20%;
+    height: 80%;
+    }
+    
+  .doc3{
+    padding-right: 5%;
+    background-color: antiquewhite;
+    width: 20%;
+    border-radius: 5%;
+    height: 80%;
+    margin-left: 25px;
+  }
+  .High h3 {
+    margin-top: 50px;
+    padding-bottom: 5%;
+
+  }
+
+ .Blog{
+  height: 400px;
+  margin-left: 0%;
+  height: 130px;
+  width: 90%;
+  margin-bottom: 15%;
+  margin-top: 5%;
+  margin-left: 150px;
+ 
+  } 
+   
+  .Blog h1{
+    font-size:50px;
+    text-align: center;
+    margin-top:5%;
+    color:#09090a;
+    margin-right: 20%;
+
+}
+.Blog button{
+     margin-right:30%;
+     border-radius: 7px;
+     background-color: rgb(171, 197, 197);
+     color: white;
+     width: 20%;
+    
+     
+     }
+.input{
+    width:80%;
+    padding:20px;
+    margin-left:15%;
+    flex-grow:2;
+    border:none;
+    border-radius: 5px;
+  
+}
+
+form{
+    display:flex;
+    float: row;
+    padding:12px;
+    height: 50%;
+    width:100%;
+    
+}
+  
+  .star{
+    color: orange;
+  }
+  .star2{
+    color: orange;
+  }
+
+
+
+.Footer{
+  display: flex;
+  margin-top: -100px;
+  background-color:aliceblue;
+}
+.About{
+  padding-left: 15%;
+}
+.community{
+  padding-left: 13%;
+}
+.product{
+  padding-left:10%;
+}
+.Yourpet{
+  padding-left: 5%;
+}
+.fa.fa-facebook-square{
+  color: rgb(9, 65, 129);
+
+}
+.fa.fa-twitter-square{
+  color: rgb(24, 192, 248);
+  padding-left: 10%;
+
+  
+}
+.fa.fa-google-plus-square{
+  color: red;
+  padding-left: 10%;
+
+}
+.fa.fa-linkedin-square{
+  color: rgb(93, 93, 252);
+  padding-left: 10%;
+}
+.Qualified h3{
+  margin-left: 90%;
+  color: rgb(144, 180, 180); 
+}
+ .Qualified h1{
+   font-size: 40px;
+   padding-right: 40%;
+   padding-top:20% ;
+ }
+
+
+
+
+
