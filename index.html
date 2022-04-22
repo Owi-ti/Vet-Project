@@ -4,225 +4,641 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Vet Clinic</title>
+    <!-- Favicon -->
+    <link rel="icon" sizes="16x16" href="assets/img/favicon-icon.png">
     <link href="https://kit.fontawesome.com/d227f722ee.js" crossorigin="anonymous"></link>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">    
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <nav>
-    
-    <div class="container">
-        <h class="logo">Yourpet.</h>
-            <ul>
-                <a href="home">Home</a>
-                <a href="service">Services</a>
-                <a href="doctors">Doctors</a>
-                <a href="about">About</a>
-                <a href="contact">Contact</a>
-            </ul>
-            
-            </div>
-        </nav>
-        <div class="text">
-            <h4>_____ veterinatry clinic</h4></div>
-            <div class="text2">
-                <h1>Your Family Members <br> are Important to Us</h1></div>
-              <div class="text3">
-                <h3>We are on Duty 24 hours a day for the health <br> of yourfamily members </h3>
-            </div>
-                   
-           <div class="button">
-            <h2>Get started </h2>
-            <i class="fa fa-play" aria-hidden="true"></i></div>
-           </div>
-           
-          <div class="image">
-                <img src="dac-removebg-preview (1).png" alt="image" width="250" height="1000">
+     <div class="main-menu-area">
+         <div class="container">
+             <div class="row">
+                 <div class="col-lg-3">
+                     <div class="logo">
+                        <a href="index.html">
+                            <!-- <img src="assets/img/logo.png" alt="..."> -->
+                            <h>Yourpet</h>
+                        </a>
+                     </div>
                  </div>
-        
-            
-         <section class="container2">
-        <div class="holder">  
-         <div  class="do">
-        <h1>Which Services do we?</h1>
-        <p>We are at your service  with all our servoces <br>
-             and personalities you need </p></div>
-             <div class="services">
-                 <div class="Rad">
-                    <i class="fa fa-desktop" aria-hidden="true"></i>
-                     <h1>The Radiology Assistant</h1>
-                    <p>Radiology is the medical discipline <br> that uses medical imaging to <br>
-                         diagnose</p> </div>
+                 <div class="col-lg-9">
+                     <nav class="navbar navbar-expand-lg navbar-light">
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse">
+                            <ul class="navbar-nav main-menu ms-auto">
+                                <li class="nav-item active">
+                                    <a href="index.html" class="nav-link">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about-us.html">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="services.html">Services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="doctors.html">Doctors</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact-us.html">Contact Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#search"><i class="fa fa-search"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                     </nav>
+                 </div>
+             </div>
+         </div>
+     </div>
+     <!-- End Main Menu Area -->
 
-             <div class="Amb">
-                <i class="fa fa-plus-circle" aria-hidden="true"></i>
-                 <h1>Ambulance service</h1>
-                <p>We have an ambulance ready for all <br> emergencies.You just need to <br>
-                     phone</p></div>
-
-             <div class="Den">
-                <i class="fa fa-times" aria-hidden="true"></i>
-                 <h1>Dental Care Services</h1>
-                <p>Dental care is a priority for animals. <br> Contiuos control should be made <br> 
-                    for gum care</p></div>
-                </div>
-             <div class="services2">
-            <div class="Surg">
-                <i class="fa fa-medkit" aria-hidden="true"></i>
-                <h1>Surgical Operation</h1>
-                <p>Our surgical team is <br> available 24 hours for emergencies. <br> Just for you</p>
-            </div>
-            <div class="Part">
-                <i class="fa fa-paw" aria-hidden="true"></i>
-                <h1>Parturition Services</h1>
-                <p>Our marternity service provices service <br> with our private and hygienic delivery <br>
-                    room</p>
-            </div>
-            <div class="Pet">
-                <i class="fa fa-hospital-o" aria-hidden="true"></i>
-                <h1>Pet Hotel Services</h1>
-                <p>Our hotel service works for you while <br> you are on vacation or on a business <br>
-                     trip</p>
-            </div>
-        </div>
-        </div>   
-         </section>
-
-         <section class="container3">
-             <div class="holder2">
-                 <div class="Be">
-                        <div class="Best">
-                            <h1>The Best veterinarians in <br> All Branches </h1>
-                            <p>All veterinarians are expert on their field and graduated from the <br>  
-                              best schools.Our experienced staff work harder for you in all the <br> 
-                              services you need 
-                             <p> All veterinarians are expert on their field and graduated from the <br> 
-                              best schools.Our experienced staff work harder for you in all the <br> 
-                              services you need  </p>
+     <!-- Start Homepage -->
+     <div class="homepage-slides-wrapper">
+         <div class="swiper-container swiper1">
+            <!-- Additional required wrapper -->
+            <div class="swiper-slide slide-bg-1">
+                <div class="d-table">
+                    <div class="d-table-cell">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <h1>Your family members are important to us</h1>
+                                    <p>We are on duty 24 hours a day for the health of your family members</p>
+                                    <a class="btn theme-btn" href="appointment.html">make an appointment</a>
+                                </div>
                             </div>
                         </div>
-                        <div class="button2">
-                            <h2>Contact Us</h2>
-                           </div>
-                           <div class="image2">
-                            <img src="doc.jpg" alt="image" width="350" height="350">
-                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+     </div>
+     <!-- End Homepage -->
+
+     <!-- Start Services Area -->
+     <div class="content-block-area gray-bg">
+         <div class="container">
+             <div class="row">
+                 <div class="col-lg-6 offset-lg-3">
+                     <div class="section-title text-center">
+                         <h2><span>Our featured</span> services</h2>
+                         <div class="car-icon"><img src="assets/img/dog.png" alt="car"></div>
+                         <p>We offer a wide range of medical services that are tailor-made for your specific health needs. Visit our clinics to learn more</p>
+                     </div>
                  </div>
-         </section>
-       <section class="container4">
-           <div class="holder3">
-               <div class="say">
-                   <h1>What do our patient say?</h1>
-                   <p>You can see the comments and scores of <br> our patients </p>
+             </div>
+             <div class="row">
+                 <div class="col-md-4">
+                     <div class="featured-boxed text-center">
+                         <div class="icon-boxed">
+                             <i class="fa fa-desktop" aria-hidden="true"></i>
+                             <h3>Radiology Assistant</h3>
+                             <div class="upper-line"></div>
+                             <div class="bottom-line"></div>
+                             <p>Radiology is the medical discipline that uses medical imaging to diagnose</p>
+                         </div>
+                     </div>
+                 </div>
 
-               </div>
-               <div class="Int">
-                <i class="fa fa-quote-left" aria-hidden="true"></i>
-                   <h1>Interested amd Experienced veterinarians</h1>
-                   <p>I reallt thank the whole team.We visied our cat <br> 
-                    Lexa. She had to be neutered and she came out of <br> 
-                    the surgery without any pain.When we came to <br>
-                     the controls later, they took care of us in the best <br>
-                      possible way</p>
-                      <div class="star">
-                      <i id="star" class="fa fa-star"></i>
-                      <i id="star" class="fa fa-star"></i>
-                      <i id="star" class="fa fa-star"></i>
-                      <i id="star" class="fa fa-star"></i>
-                      <i id="star" class="fa fa-star"></i>
-                      <div class="rate"><h4>4,8</h4></div></div>
-               </div>
-               <div class="Both">
-                <i class="fa fa-quote-left" aria-hidden="true"></i>
-                   <h1>Both cheap and friendly staff</h1>
-                   <p>We came for my dog Bobby.There was a marble in <br> 
-                    his throat.We benefited from the ambulance ancs <br> 
-                    services due tothe need for emergency sdarkanes <br>
-                     dintervetion.They arrived in 15 minutes and anima <br> intervened immediately</p>
-                     <div class="star2">
-                     <i id="star" class="fa fa-star"></i>
-                     <i id="star" class="fa fa-star"></i>
-                     <i id="star" class="fa fa-star"></i>
-                     <i id="star" class="fa fa-star"></i>
-                     <i id="star" class="fa fa-star"></i>
-                     <div class="rate1"><h4>4,6</h4></div></div>
-               </div>
-           </div>
+                 <div class="col-md-4">
+                     <div class="featured-boxed text-center">
+                         <div class="icon-boxed">
+                             <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                             <h3>Ambulance services</h3>
+                             <div class="upper-line"></div>
+                             <div class="bottom-line"></div>
+                             <p>We have ambulances for all medical emergencies ready at the dial.</p>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="col-md-4">
+                     <div class="featured-boxed text-center">
+                         <div class="icon-boxed">
+                             <i class="fa fa-times" aria-hidden="true"></i>
+                             <h3>Dental Care Services</h3>
+                             <div class="upper-line"></div>
+                             <div class="bottom-line"></div>
+                             <p>Dental care is a priority for animals. Continuos control should be made for dental gum care</p>
+                         </div>
+                     </div>
+                 </div>
+ 
+                 <div class="col-md-4">
+                     <div class="featured-boxed text-center">
+                         <div class="icon-boxed">
+                             <i class="fa fa-medkit" aria-hidden="true"></i>
+                             <h3>Surgical Operations</h3>
+                             <div class="upper-line"></div>
+                             <div class="bottom-line"></div>
+                             <p>Our surgical team is available 24 hours a day for all emergencies</p>
+                         </div>
+                     </div>
+                 </div>
+ 
+                 <div class="col-md-4">
+                     <div class="featured-boxed text-center">
+                         <div class="icon-boxed">
+                             <i class="fa fa-paw" aria-hidden="true"></i>
+                             <h3>Parturition Services</h3>
+                             <div class="upper-line"></div>
+                             <div class="bottom-line"></div>
+                             <p>Our marternity services include exquisite private and hygienic delivery rooms</p>
+                         </div>
+                     </div>
+                 </div>
+ 
+                 <div class="col-md-4">
+                     <div class="featured-boxed text-center">
+                         <div class="icon-boxed">
+                             <i class="fa fa-hospital-o" aria-hidden="true"></i>
+                             <h3>Pet Hotel Services</h3>
+                             <div class="upper-line"></div>
+                             <div class="bottom-line"></div>
+                             <p>Our hotel services work for you while you are on vacation or on a business trip</p>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+         <div class="container-fluid">
+             <div class="row">
+                 <div class="col-lg-12 text-center">
+                     <a href="services.html" class="btn theme-btn m-t-50">view all services</a>
+                 </div>
+             </div>
+         </div>
+     </div>
+     <!-- End Services Area -->
 
-       </section>
-       <section class="Docts">
-        <div class="Qualified">
-            <h1>Our High Qualified Veterinarians</h1>
-            <h3>See All<i class="fa fa-arrow-right" aria-hidden="true"></i> </h3>
-        </div>
-        <div class="High">
-            <div class="doc1">
-                <img src="docts-removebg-preview.png" alt="doc" width="400" height="300">
-                <h3>Dr.Neil Human Pascal</h3>
-                <p>Expert Veterinarian</p>
+    <!-- Start Why Choose Us Area -->
+    <div class="content-block-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="section-title text-center">
+                        <h2><span>Why choose</span> us</h2>
+                        <div class="car-icon"><img src="assets/img/dog.png" alt="..."></div>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
+                    </div>
+                </div>
             </div>
-            <div class="doc2">
-                <img src="doct2-removebg-preview.png" alt="doc" width="200" height="250">
-                <h3>Dr.Patric Samuel Neal</h3>
-                <p>Expert Veterinarian</p>
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <div class="boxed-item">
+                        <span class="serial-number">01</span>
+                        <span class="single-boxed"><i class="fa fa-volume-control-phone"></i></span>
+                        <h3>Fast Response</h3>
+                        <p>It is a long established fact that a reader will be distracted by the readable content.</p>  
+                    </div>
+                </div>
+                    
+                <div class="col-md-6 col-lg-3">
+                    <div class="boxed-item">
+                        <span class="serial-number">02</span>
+                        <span class="single-boxed"><i class="fa fa-home"></i></span>
+                        <h3>Comfortable Office</h3>
+                        <p>It is a long established fact that a reader will be distracted by the readable content.</p>  
+                    </div>
+                </div>
+                    
+                <div class="col-md-6 col-lg-3">
+                    <div class="boxed-item">
+                        <span class="serial-number">03</span>
+                        <span class="single-boxed"><i class="fa fa-cogs"></i></span>
+                        <h3>High Quality Equipment</h3>
+                        <p>It is a long established fact that a reader will be distracted by the readable content.</p>  
+                    </div>
+                </div>
+                    
+                <div class="col-md-6 col-lg-3">
+                    <div class="boxed-item">
+                        <span class="serial-number">04</span>
+                        <span class="single-boxed"><i class="fa fa-user-md"></i></span>
+                        <h3>Very Friendly Staff</h3>
+                        <p>It is a long established fact that a reader will be distracted by the readable content.</p>  
+                    </div>
+                </div>
             </div>
-            <div class="doc3">
-                <img src="doct-removebg-preview.png" alt="doc" width="350" height="250">
-                <h3>Dr.Emanuella Belivea</h3>
-                <p>Expert Veterinarian</p>
+            <div class="col-lg-12 text-center">
+                <a href="about-us.html" class="btn theme-btn m-t-50">about us</a>
             </div>
-        </div>
-    </section>
-    <div class="Blog">
-        <h1>Subcribe to Our Blog</h1>
-        <form>
-            <input class="input" type="text" placeholder="Enter your email address">
-            <button>Subscribe</button>
-        </form>
-        </div>
-
-    <div class="Footer">
-        <div class="Yourpet">
-            <h3>Yourpet</h3>
-            <p>Eulan Street,0012,New York</p>
-            <p>City,USA</p>
-            <p>info@Yourpet.com</p>
-            <p>321464223482</p>
-            <i class="fa fa-facebook-square" aria-hidden="true"></i>
-            <i class="fa fa-twitter-square" aria-hidden="true"></i>
-            <i class="fa fa-google-plus-square" aria-hidden="true"></i>
-            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-        </div>
-        <div class="product">
-            <h3>PRODUCT</h3>
-            <P>Download</P>
-            <P>Location</P>
-            <P>Service</P>
-            <P>Address</P>
-            <P>Map</P>
-            <P>Pricing</P>
-        </div>
-        <div class="community">
-            <h3>COMMUNITY</h3>
-            <p>Accessibility</p>
-            <p>Frontline</p>
-            <p>Gift</p>
-            <p>Quest</p>
-            <p>About us</p>
-            <p>Contact</p>
-            <p>Center</p>
-        </div>
-        <div class="About">
-            <h3>About</h3>
-            <p>Invest</p>
-            <p>Careers</p>
-            <p>Founders</p>
-            <p>work</p>
-            <p>Newsroom</p>
         </div>
     </div>
+    <!-- End Why Choose Us Area -->
+
+    <!-- Start Count-Down Area -->
+    <div class="count-down-area count-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <div class="count-down-boxed text-center">
+                        <div class="icon-box">
+                           <i class="fa fa-smile-o"></i>
+                        </div>
+                        <span class="count-icon">
+                            <span class="count-number counter">12,500</span>
+                        </span>
+                        <h3 class="count-info">Happy Clients</h3>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="count-down-boxed text-center">
+                       <div class="icon-box">
+                           <i class="fa fa-building-o"></i>
+                        </div>
+                        <span class="count-icon">
+                            <span class="count-number counter">17,500</span>
+                        </span>
+                        <h3 class="count-info">Completed Projects</h3>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="count-down-boxed text-center">
+                       <div class="icon-box">
+                           <i class="fa fa-trophy"></i>
+                        </div>
+                        <span class="count-icon">
+                            <span class="count-number counter">15,500</span>
+                        </span>
+                        <h3 class="count-info">WINNING AWARD</h3>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="count-down-boxed text-center">
+                       <div class="icon-box">
+                           <i class="fa fa-clock-o"></i>
+                        </div>
+                        <span class="count-icon"> 
+                            <span class="count-number counter">14,500</span>
+                        </span>
+                        <h3 class="count-info">Hours Worked</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Count-Down Area -->
+
+    <!-- Start Our testimonials Area -->
+    <div class="content-block-area gray-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-4">
+                    <div class="section-title text-end">
+                        <h3>our clients</h3>
+                        <h2><span>CLIENTS THAT TRUST</span> OUR SERVICES</h2>
+                   </div>
+                    <div class="testimonials-car-boxed">
+                       <img src="assets/img/testimonial-car.png" alt="Image">
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4">
+                    <div class="testimonial-item">
+                        <div class="testimonial-single-item">
+                            <p>I really thank the whole team. We visied our cat Lexa. 
+                                She had to be neutered and she came out of the surgery 
+                                without any pain.When we came to the controls later, they 
+                                took care of us in the best possible way
+                            </p>
+                            <ul>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="quotation-profile">
+                            <img src="assets/img/testimonials-1.jpg" alt="Image">
+                        </div>  
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4">
+                    <div class="testimonial-item">
+                        <div class="testimonial-single-item">
+                            <p>We came for my dog Bobby. There was a marble in his throat.
+                                We benefited from the ambulance ancs services due to the need 
+                                for emergency sdarkanes intervetion. They arrived in 15 minutes and anima 
+                                intervened immediately
+                            </p>
+                            <ul>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                            </ul>
+                        </div>
+                        <div class="quotation-profile">
+                            <img src="assets/img/testimonials-1.jpg" alt="Image">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-12 col-lg-8 offset-lg-4 text-center">
+                    <a href="#" class="btn theme-btn">see testimonials</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Our testimonials Area -->
+
+    <!-- Start Our team Area -->
+    <div class="content-block-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                   <div class="section-title text-center">
+                       <h2><span>our experienced</span> team</h2>
+                       <div class="car-icon"><img src="assets/img/dog.png" alt="car"></div>
+                       <p>It is a long established fact that a reader will be distracted by the readable 
+                           content of a page when looking at its layout
+                        </p>
+                   </div>
+                </div>
+            </div>
+            <div class="row">
+               <div class="col-lg-4 col-md-6">
+                    <div class="our-team">
+                        <div class="team-image">
+                            <img src="assets/img/docts-removebg-preview.png" alt="team-one">
+                            <p class="description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent urna diam, 
+                                maximus ut ullamcorper quis, placerat id eros. Duis semper justo sed condimentum rutrum. 
+                                Nunc tristique purus turpis. Maecenas vulputate.
+                            </p>
+                            <ul class="social">
+                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="team-info">
+                            <h3 class="title">Dr.Neil Human Pascal</h3>
+                            <span class="post">Pain Management</span>
+                        </div>
+                    </div>
+                </div> 
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="our-team">
+                        <div class="team-image">
+                            <img src="assets/img/doct2-removebg-preview.png" alt="team-two">
+                            <p class="description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent urna diam,
+                                maximus ut ullamcorper quis, placerat id eros. Duis semper justo sed condimentum rutrum.
+                                Nunc tristique purus turpis. Maecenas vulputate.
+                            </p>
+                            <ul class="social">
+                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="team-info">
+                            <h3 class="title">Dr.Patric Samuel Neal</h3>
+                            <span class="post">Pet Education</span>
+                        </div>
+                    </div>
+                </div> 
+                
+                <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
+                    <div class="our-team">
+                        <div class="team-image">
+                            <img src="assets/img/doct-removebg-preview.png" alt="team-three">
+                            <p class="description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent urna diam, maximus ut
+                                ullamcorper quis, placerat id eros. Duis semper justo sed condimentum rutrum. 
+                                Nunc tristique purus turpis. Maecenas vulputate.
+                            </p>
+                            <ul class="social">
+                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="team-info">
+                            <h3 class="title">Dr.Emanuella Belivea</h3>
+                            <span class="post">Surgery</span>
+                        </div>
+                    </div>
+                </div>
+                 
+            </div>
+        </div>
+    </div>
+    <!-- End Our team Area -->
+
+    <!-- Start News Area -->
+    <div class="content-block-area gray-bg">
+        <div class="container">
+           <div class="row">
+               <div class="col-lg-6 offset-lg-3">
+                   <div class="section-title text-center">
+                       <h2><span>recent</span> news</h2>
+                       <div class="car-icon"><img src="assets/img/dog.png" alt="car"></div>
+                       <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                   </div>
+               </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="single-blog-item">
+                        <a href="#" class="zoomin"><img src="assets/img/blog-item-one.jpg" alt="Image Description"></a>
+                        <div class="blog-item-info">
+                            <span class="blog-date">April 20, 2022</span> <div class="separator">|</div> 
+                            <a class="blog-tags red" href="#"><i class="fa fa-tag"></i> Day Camp</a>
+                            <a href="#"><h3>Blog Title Goes to Here</h3></a>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been 
+                                the industry's standard dummy text ever since
+                            </p>
+                            
+                            <div class="row">
+                                <div class="col-7">
+                                    <div class="blog-item-profile">
+                                        <img src="assets/img/testimonials-1.jpg" alt="Image description"> <a href="#">anika rimjim</a>
+                                    </div>
+                                </div>
+                                <div class="col-5 text-end">
+                                    <div class="blog-item-c-v-info">
+                                        <span><a href="#"><i class="fa fa-comments-o"> 25</i></a></span>
+                                        <span><a href="#"><i class="fa fa-eye"> 520</i></a></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                   
+                <div class="col-md-4">
+                    <div class="single-blog-item">
+                        <a href="#" class="zoomin"><img src="assets/img/blog-item-two.jpg" alt="Image Description"></a>
+                        <div class="blog-item-info">
+                            <span class="blog-date">April 20, 2022</span> <div class="separator">|</div> 
+                            <a class="blog-tags green" href="#"><i class="fa fa-tag"></i> Grooming</a>
+                            <a href="#"><h3>Blog Title Goes to Here</h3></a>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                                standard dummy text ever since
+                            </p>
+                            
+                            <div class="row">
+                                <div class="col-7">
+                                    <div class="blog-item-profile">
+                                        <img src="assets/img/testimonials-1.jpg" alt="Image description"> <a href="#">anika rimjim</a>
+                                    </div>
+                                </div>
+                                <div class="col-5 text-end">
+                                    <div class="blog-item-c-v-info">
+                                        <span><a href="#"><i class="fa fa-comments-o"> 25</i></a></span>
+                                        <span><a href="#"><i class="fa fa-eye"> 520</i></a></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="single-blog-item">
+                        <a href="#" class="zoomin"><img src="assets/img/blog-item-three.jpg" alt="Image Description"></a>
+                        <div class="blog-item-info">
+                            <span class="blog-date">April 20, 2022</span> <div class="separator">|</div> 
+                            <a class="blog-tags blue" href="#"><i class="fa fa-tag"></i> Training</a>
+                            <a href="#"><h3>Blog Title Goes to Here</h3></a>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                Lorem Ipsum has been the industry's standard dummy text ever since
+                            </p>
+                            
+                            <div class="row">
+                                <div class="col-7">
+                                    <div class="blog-item-profile">
+                                        <img src="assets/img/testimonials-1.jpg" alt="Image description"> <a href="#">anika rimjim</a>
+                                    </div>
+                                </div>
+                                <div class="col-5 text-end">
+                                    <div class="blog-item-c-v-info">
+                                        <span><a href="#"><i class="fa fa-comments-o"> 25</i></a></span>
+                                        <span><a href="#"><i class="fa fa-eye"> 520</i></a></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End News Area -->
+
+    <!-- Footer Area -->
+    <footer class="site-footer">
+        <!-- Footer Top Area -->
+        <div class="footer-top-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 mt-5">
+                        <div class="footer-wid">
+                            <a href="index.html" class="footer-logo">
+                                <!--<img src="assets/img/logo.png" alt="logo">-->
+                                <h3>Yourpet</h3>
+                            </a>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et 
+                                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                            <a href="#" class="link-color">Read More About Us <i class="fa  fa-long-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-md-12 mt-5">
+                        <div class="row">
+                            <div class="col-md-4 col-lg-4">
+                                <div class="footer-wid footer-menu">
+                                    <h3 class="footer-wid-title">Navigation</h3>
+                                    <ul>
+                                        <li><a href="index.html"><i class="fa  fa-angle-right"></i> home</a></li>
+                                        <li><a href="about-us.html"><i class="fa  fa-angle-right"></i> About</a></li>
+                                        <li><a href="projects.html"><i class="fa  fa-angle-right"></i> our mission</a></li>
+                                        <li><a href="industries.html"><i class="fa  fa-angle-right"></i> services</a></li>
+                                        <li><a href="gallery.html"><i class="fa  fa-angle-right"></i> gallery</a></li>
+                                        <li><a href="blog.html"><i class="fa  fa-angle-right"></i> blog</a></li>
+                                        <li><a href="contact-us.html"><i class="fa  fa-angle-right"></i> contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-lg-4">
+                                <div class="footer-wid footer-menu">
+                                    <h3 class="footer-wid-title">Hours of Operation</h3>
+                                    <ul>
+                                        <li><i class="fa  fa-angle-right"></i> Monday:7:30am - 5:30pm</li>
+                                        <li><i class="fa  fa-angle-right"></i> Tuesday:7:30am - 5:30pm</li>
+                                        <li><i class="fa  fa-angle-right"></i> Wednesday:7:30am - 5:30pm</li>
+                                        <li><i class="fa  fa-angle-right"></i> Thursday:7:30am - 5:30pm</li>
+                                        <li><i class="fa  fa-angle-right"></i> Friday:7:30am - 5:30pm</li>
+                                        <li><i class="fa  fa-angle-right"></i> Saturday:7:30am - 3:00pm</li>
+                                        <li><i class="fa  fa-angle-right"></i> Sunday: Closed</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-lg-4">
+                                <div class="footer-wid map-preview">
+                                    <h3 class="footer-wid-title">Get In Touch</h3>
+                                    <p>Eulan Street,0012,New York</p>
+                                    <div class="address-info">
+                                        <span><i class="fa  fa-phone"></i> (224) 228-8475</span><br>
+                                        <span><i class="fa  fa-envelope"></i> <a href="#"></a> </span>
+                                    </div>
+                                    <div class="subscribe">
+                                        <form action="index.html">
+                                            <input type="text" placeholder="Type your email" required>
+                                            <button>Subscribe now <i class="fa  fa-paper-plane"></i></button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <div class="social-icos">    
+                            <ul class="list-inline">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- End Footer Top -->
+        <!-- Footer Bottom Area -->
+        <div class="footer-copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-5">
+                        &copy; Copyright 2022 All Rights Reserved.
+                    </div>
+                    <div class="col-lg-6 col-md-7 text-end">
+                        <a href="#">Terms & Condition</a> <span class="seprator">|</span> <a href="#">Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- End Footer Bottom Area -->
+    </footer> <!-- End Footer Area -->
 </body>
 
 </html>
